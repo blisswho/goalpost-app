@@ -56,8 +56,11 @@
 		63B671282001364E00062BCE /* goalpost-app */ = {
 			isa = PBXGroup;
 			children = (
+				63B67141200136E700062BCE /* Extensions */,
+				63B67140200136E100062BCE /* Enums */,
+				63B6713F200136D100062BCE /* View */,
+				63B6713E200136B500062BCE /* Controller */,
 				63B671292001364E00062BCE /* AppDelegate.swift */,
-				63B6712B2001364E00062BCE /* ViewController.swift */,
 				63B6712D2001364E00062BCE /* Main.storyboard */,
 				63B671332001364E00062BCE /* Assets.xcassets */,
 				63B671352001364E00062BCE /* LaunchScreen.storyboard */,
@@ -65,6 +68,35 @@
 				63B671302001364E00062BCE /* goalpost_app.xcdatamodeld */,
 			);
 			path = "goalpost-app";
+			sourceTree = "<group>";
+		};
+		63B6713E200136B500062BCE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63B6712B2001364E00062BCE /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		63B6713F200136D100062BCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63B67140200136E100062BCE /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		63B67141200136E700062BCE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
