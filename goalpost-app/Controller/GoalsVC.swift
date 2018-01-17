@@ -22,11 +22,13 @@ class GoalsVC: UIViewController {
     }
 
     @IBAction func addGoalBtnWasPressed(_ sender: Any) {
-        print("button was pressed")
+        guard let createGoalVC = storyboard?.instantiateViewController(withIdentifier: "CreateGoalVC") else { return }
+        presentDetail(createGoalVC)
     }
 }
 
 extension GoalsVC: UITableViewDelegate, UITableViewDataSource {
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
